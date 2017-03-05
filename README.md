@@ -12,21 +12,7 @@ The remaining content involves building a practical application with the skills 
 4. Ask for help from peers and mentors.
 5. See step 1.
 
-## The Problem
 
-A real estate company needs an API which allows users to browse housing property listings for sale and rent. This API will be used for their website and mobile apps to support customers, agents, and admins.
-
-We must use the [Zoopla Property Listings API](http://developer.zoopla.com/docs/read/Property_listings\) to populate housing properties into our own API. In order to use the API freely, you must [register an account]\(http://developer.zoopla.com/member/register\). Due to the API request restrictions and for the purposes of testing, feel free to use this [mock server]\(https://github.com/aramk/zoopla-api-mock) to populate our own data modals.
-
-The API should support:
-
-* RESTful CRUD actions \(Create, Read, Update, Delete\) on properties.
-* An action to trigger importing from Zoopla given a set of parameters.
-* Persistence of data models with MongoDB.
-
-The architecture should be separated into three layers:
-
-* property-listing-models
 
 
 
