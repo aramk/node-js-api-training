@@ -27,13 +27,13 @@ There's more information we could capture, but this is the minimum.
 
 [Mongoose](http://mongoosejs.com/\) is an Object-Relational Mapping \(ORM\) framework for [MongoDB]\(https://docs.mongodb.com/manual/) and Node.js. It allows us to create a data model for our Property objects.
 
-### Tasks
+## Tasks
 
 * Define your `package.json` file in your `property-listing-models` repo.
 * Install MongoDB with [Homebrew](http://brew.sh/) and configure a server to run locally.
 * If you need to manage environment variables \(e.g. MongoDB URL\), use [envobj](https://github.com/matthewmueller/envobj) to set overridable defaults in your source code.
 * Create a Mongoose schema and Property model with the fields above.
-* Write a unit test for the Property model using [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/).
+* Write a unit test for the Property model using [Mocha](https://mochajs.org/\) and [Chai]\(http://chaijs.com/).
   * Test that you're able to create a Property instance.
   * Check that the validation in Mongoose is working and for the fields you've defined.
   * If you need to use promises, try [Q](https://github.com/kriskowal/q).
