@@ -13,7 +13,8 @@ A service is needed to communicate with Zoopla. Since we're storing our own data
 
 * Support use of an API key. Define a fake key in [envobj](https://github.com/matthewmueller/envobj) and use a reference in your code. If you're using the real Zoopla API, set the key in your user's environment variables to override this one.
 * Allow making multiple requests and using the pagination parameters to request all pages, and support a property object limit if provided.
-* 
+* Support converting a Zoopla property document into our Property model.
+
 
 ## Property Service
 
