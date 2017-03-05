@@ -2,7 +2,7 @@
 
 A real estate company needs an API which allows users to browse housing property listings for sale and rent. This API will be used for their website and mobile apps to support customers, agents, and admins.
 
-We must use the [Zoopla Property Listings API](http://developer.zoopla.com/docs/read/Property_listings\) to populate housing properties into our own API. In order to use the API freely, you must [register an account]\(http://developer.zoopla.com/member/register\). Due to the API request restrictions and for the purposes of testing, feel free to use this [mock server]\(https://github.com/aramk/zoopla-api-mock) to populate our own data modals.
+We must use the [Zoopla Property Listings API](http://developer.zoopla.com/docs/read/Property_listings) to populate housing properties into our own API. In order to use the API freely, you must [register an account](http://developer.zoopla.com/member/register). Due to the API request restrictions and for the purposes of testing, feel free to use this [mock server](https://github.com/aramk/zoopla-api-mock) to populate our own data models.
 
 The API should support:
 
