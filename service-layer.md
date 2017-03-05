@@ -15,7 +15,7 @@ A service is needed to communicate with Zoopla. Since we're storing our own data
   * If you're using the real Zoopla API, set the key in your user's environment variables to override this one.
 * Allow making multiple requests and using the pagination parameters to request all pages, and support a property object limit if provided.
 * Use promises or RxJS for requests.
-* Have Mocha tests for all methods. See 
+* Have Mocha tests for all methods. You should either use the [mock server](https://github.com/aramk/zoopla-api-mock), or create test fixtures and mock methods with [Sinon](https://github.com/sinonjs/sinon).
 
 ## Property Service
 
