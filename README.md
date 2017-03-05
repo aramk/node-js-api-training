@@ -4,7 +4,7 @@ Welcome! In this short training course I'll take you through the steps needed to
 
 The training component of this course has been delegated to this excellent [Udemy course on Node.js](https://www.udemy.com/the-complete-nodejs-developer-course-2).
 
+If you're new to JavaScript, you can check out some of [these courses](https://www.udemy.com/courses/search/?q=javascript).
+
 The remaining content involves building a practical application with the skills you learn in this course.
-
-
 
