@@ -12,7 +12,7 @@ The remaining content involves building a practical application with the skills 
 4. Ask for help from peers and mentors.
 5. See step 1.
 
-
+Let's get started!
 
 
 

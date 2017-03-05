@@ -1,3 +1,5 @@
+# The Problem
+
 A real estate company needs an API which allows users to browse housing property listings for sale and rent. This API will be used for their website and mobile apps to support customers, agents, and admins.
 
 We must use the [Zoopla Property Listings API](http://developer.zoopla.com/docs/read/Property_listings\) to populate housing properties into our own API. In order to use the API freely, you must [register an account]\(http://developer.zoopla.com/member/register\). Due to the API request restrictions and for the purposes of testing, feel free to use this [mock server]\(https://github.com/aramk/zoopla-api-mock) to populate our own data modals.
@@ -20,7 +22,5 @@ The architecture should be separated into three layers:
   * Uses the service layer for completing requests.
   * Uses the data layer for persistence.
 
-The next chapters will take you through each of these in sequence as you build the full application.
-
-
+Each of these layers should be its own Node.js package. Start by creating a blank Git repo for each of them. The next chapters will take you through these layers in sequence as you build the full application.
 
