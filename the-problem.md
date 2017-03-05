@@ -10,6 +10,8 @@ The API should support:
 * An action to trigger importing from Zoopla given a set of parameters.
 * Persistence of data models with MongoDB.
 
+## Architecture
+
 The architecture should be separated into three layers:
 
 * **property-listing-models**
@@ -22,5 +24,5 @@ The architecture should be separated into three layers:
   * Uses the service layer for completing requests.
   * Uses the data layer for persistence.
 
-Each of these layers should be its own Node.js package. Start by creating a blank Git repo for each of them. The next chapters will take you through these layers in sequence as you build the full application.
+Each of these layers should be its own Node.js package. Start by creating a blank Git repo for each of them. Use `npm link` to define links to support local development. The next chapters will take you through these layers in sequence as you build the full application.
 

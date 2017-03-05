@@ -24,5 +24,3 @@ A service is needed to handle all property application logic. It must:
 * Support calling the Zoopla service you defined.
 * Support converting a Zoopla property document into our Property model.
 * Support persisting the converted property into MongoDB using Mongoose.
-
-
