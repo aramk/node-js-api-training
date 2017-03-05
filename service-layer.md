@@ -11,12 +11,16 @@ A service is needed to communicate with Zoopla. Since we're storing our own data
 
 `country="England", outcode="BR1", page_number=1, page_size=100`
 
-* Support use of an API key. Define a fake key in [envobj](https://github.com/matthewmueller/envobj) and use a reference in your code. If you're using the real Zoopla API, set the key in your user's environment variables to override this one.
+* Support use of an API key. Define a fake key in [envobj](https://github.com/matthewmueller/envobj) and use a reference in your code.
+  * If you're using the real Zoopla API, set the key in your user's environment variables to override this one.
 * Allow making multiple requests and using the pagination parameters to request all pages, and support a property object limit if provided.
-* Support converting a Zoopla property document into our Property model.
-
 
 ## Property Service
 
+A service is needed to handle all property application logic. It must:
+
+* Support calling the Zoopla service you defined.
+* Support converting a Zoopla property document into our Property model.
+* Support persisting the converted property into MongoDB using Mongoose.
 
 
