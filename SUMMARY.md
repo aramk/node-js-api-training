@@ -6,3 +6,5 @@
 * [Services](services.md)
 * [API](api.md)
 * [Extensions](extensions.md)
+* [Solutions](solutions.md)
+
